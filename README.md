@@ -12,7 +12,31 @@ The `M` stands for `Modules` <strong>e.g.</strong> `M3` means `Module 3`. That's
 
 <hr />
 
-## S6-17-M2 - 03/03/23 - "[NU KENZIE]()"
+## S1-14-M3 - 03/21/23 - "[PROPS: CARD DE PESSOAS]()"
+Still coding.
+
+## S1-15-M3 - 03/21/23 - "[CHILDREN: PRATICANDO CHILDREN]()"
+Still coding.
+
+## S1-21-M3 - 03/22/23 - "[REACT: LISTA DE FRUTAS]()"
+Still coding.
+
+## S1-24-M3 - 03/22/23 - "[ESTADO: FORMULÁRIO DE CADASTRO]()"
+Still coding.
+
+## S1-25-M3 - 03/22/23 - "[MANIPULANDO EVENTOS: NÚMEROS ALEATÓRIOS]()"
+Still coding.
+
+## S1-29-M3 - 03/23/23 - "[RENDERIZAÇÃO CONDICIONAL: ACESSO DE USUÁRIO]()"
+Still coding.
+
+## S1-30-M3 - 03/23/23 - "[RENDERIZAÇÃO CONDICIONAL + FORM: ACESSO UTILIZANDO USERNAME]()"
+Still coding.
+
+## S1-32-M3 - 03/23/23 - "[CALLBACKS + SPREAD: TO-DO LIST]()"
+Still coding.
+
+## S1-36-M3 - 03/27/23 - "[NU KENZIE]()"
 Still coding.
 
 <hr />
