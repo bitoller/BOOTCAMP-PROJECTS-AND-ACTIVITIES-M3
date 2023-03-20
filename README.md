@@ -12,7 +12,7 @@ The `M` stands for `Modules` <strong>e.g.</strong> `M3` means `Module 3`. That's
 
 <hr />
 
-## S6-17-M2 - 03/03/23 - "[NU KENZIE](https://nu-kenzie-theta-eight.vercel.app/)"
+## S6-17-M2 - 03/03/23 - "[NU KENZIE]()"
 Still coding.
 
 <hr />
