@@ -12,12 +12,6 @@ The `M` stands for `Modules` <strong>e.g.</strong> `M3` means `Module 3`. That's
 
 <hr />
 
-## S1-14-M3 - 03/21/23 - "[PROPS: CARD DE PESSOAS]()"
-Still coding.
-
-## S1-15-M3 - 03/21/23 - "[CHILDREN: PRATICANDO CHILDREN]()"
-Still coding.
-
 ## S1-21-M3 - 03/22/23 - "[REACT: LISTA DE FRUTAS]()"
 Still coding.
 
