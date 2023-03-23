@@ -30,8 +30,10 @@ Still coding.
 ## S1-32-M3 - 03/23/23 - "[CALLBACKS + SPREAD: TO-DO LIST]()"
 Still coding.
 
-## S1-36-M3 - 03/27/23 - "[NU KENZIE]()"
-Still coding.
+## S1-36-M3 - 03/27/23 - "[NU KENZIE](https://nu-kenzie-bitoller.vercel.app/)"
+For my next activity I had to code a Finances Management App based on an example given from Figma using Reactjs. You can use this application to keep track of your finances. You can select between money going in or out and name them accordingly. The application will also calculate the total balance.<br />
+<br />
+`scaffolding` `input` `css variables` `flexbox` `hover` `focus`  `function` `variables` `data type` `boolean` `conditionals` `objects` `methods` `Reactjs` `+`
 
 <hr />
 
