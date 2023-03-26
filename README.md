@@ -12,24 +12,6 @@ The `M` stands for `Modules` <strong>e.g.</strong> `M3` means `Module 3`. That's
 
 <hr />
 
-## S1-21-M3 - 03/22/23 - "[REACT: LISTA DE FRUTAS]()"
-Still coding.
-
-## S1-24-M3 - 03/22/23 - "[ESTADO: FORMULÁRIO DE CADASTRO]()"
-Still coding.
-
-## S1-25-M3 - 03/22/23 - "[MANIPULANDO EVENTOS: NÚMEROS ALEATÓRIOS]()"
-Still coding.
-
-## S1-29-M3 - 03/23/23 - "[RENDERIZAÇÃO CONDICIONAL: ACESSO DE USUÁRIO]()"
-Still coding.
-
-## S1-30-M3 - 03/23/23 - "[RENDERIZAÇÃO CONDICIONAL + FORM: ACESSO UTILIZANDO USERNAME]()"
-Still coding.
-
-## S1-32-M3 - 03/23/23 - "[CALLBACKS + SPREAD: TO-DO LIST]()"
-Still coding.
-
 ## S1-36-M3 - 03/27/23 - "[NU KENZIE](https://nu-kenzie-bitoller.vercel.app/)"
 For my next activity I had to code a Finances Management App based on an example given from Figma using Reactjs. You can use this application to keep track of your finances. You can select between money going in or out and name them accordingly. The application will also calculate the total balance.<br />
 <br />
