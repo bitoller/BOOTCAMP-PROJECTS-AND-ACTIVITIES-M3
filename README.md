@@ -17,6 +17,9 @@ For my next activity I had to code a Finances Management App based on an example
 <br />
 `scaffolding` `input` `css variables` `flexbox` `hover` `focus`  `function` `variables` `data type` `boolean` `conditionals` `objects` `methods` `Reactjs` `+`
 
+## S2-14-M3 - 04/03/23 - "[HAMBURGUERIA KENZIE](https://hamburgueria-kenzie-bitoller.vercel.app/)"
+The project is done. Description coming soon.
+
 <hr />
 
 <p align="center">
