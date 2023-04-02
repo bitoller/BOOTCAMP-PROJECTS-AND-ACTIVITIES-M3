@@ -20,7 +20,7 @@ For my next activity I had to code a Finances Management App based on an example
 ## S2-14-M3 - 04/03/23 - "[HAMBURGUERIA KENZIE](https://hamburgueria-kenzie-bitoller.vercel.app/)"
 For my next activity I had to code a Burger Shop based on an example given from Figma using Reactjs. You can add products to the cart, you can also remove them all from the cart at once or one by one. You can search for the product by its name or category using the search bar.<br />
 <br />
-`scaffolding` `input` `css variables` `styled components` `flexbox` `hover` `focus` `react toastify` `axios` ` `function` `variables` `data type` `boolean` `conditionals` `objects` `array` `methods` `API` `CRUD` `Reactjs` `vite` `+`
+`scaffolding` `input` `css variables` `styled components` `flexbox` `hover` `focus` `react toastify` `axios` `function` `variables` `data type` `boolean` `conditionals` `objects` `array` `methods` `API` `CRUD` `Reactjs` `vite` `+`
 
 ## S3-11-M3 - 04/17/23 - "[KENZIEHUB]()"
 Still coding.
