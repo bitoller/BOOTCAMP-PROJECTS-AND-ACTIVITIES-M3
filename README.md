@@ -22,6 +22,9 @@ For my next activity I had to code a Burger Shop based on an example given from 
 <br />
 `scaffolding` `input` `css variables` `styled components` `flexbox` `hover` `focus` `react toastify` `axios` ` `function` `variables` `data type` `boolean` `conditionals` `objects` `array` `methods` `API` `CRUD` `Reactjs` `vite` `+`
 
+## S3-11-M3 - 04/17/23 - "[KENZIEHUB]()"
+Still coding.
+
 <hr />
 
 <p align="center">
