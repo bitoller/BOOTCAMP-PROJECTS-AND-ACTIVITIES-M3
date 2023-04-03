@@ -10,4 +10,8 @@ Além disso para praticar a estilização, a aplicação deverá ser semelhante 
 Resultado
 
 <img src="https://media.graphassets.com/3VAFZp4ATGiOCluOZdlr"/>
+<br>
+<br>
+
+<p align="center"><b>Taken from Kenzie Academy Brasil</b></p>
 
