@@ -22,8 +22,8 @@ For my next activity I had to code a Burger Shop based on an example given from 
 <br />
 `scaffolding` `input` `css variables` `styled components` `flexbox` `hover` `focus` `react toastify` `axios` `function` `variables` `data type` `boolean` `conditionals` `objects` `array` `methods` `API` `CRUD` `Reactjs` `vite` `vercel` `+`
 
-## S3-11-M3 - 04/17/23 - "[KENZIEHUB]()"
-Still coding.
+## S3-11-M3 - 04/17/23 - "[KENZIEHUB](https://kenzie-hub-bitoller.vercel.app/)"
+Description under construction.
 
 <hr />
 
