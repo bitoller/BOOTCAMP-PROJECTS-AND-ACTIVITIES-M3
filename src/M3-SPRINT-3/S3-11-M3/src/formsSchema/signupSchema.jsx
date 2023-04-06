@@ -24,7 +24,12 @@ export const signupSchema = z
     bio: z.string().min(1, "A bio é obrigatória"),
     contact: z.string().min(1, "O contato é obrigatório"),
     course_module: z.enum(
-      ["Primeiro módulo", "Segundo módulo", "Terceiro módulo", "Quarto módulo"],
+      [
+        "Primeiro módulo (Introdução ao Frontend)",
+        "Segundo módulo (Frontend Avançado)",
+        "Terceiro módulo (Introdução ao Backend)",
+        "Quarto módulo (Backend Avançado)",
+      ],
       {
         errorMap: () => ({ message: "O módulo é obrigatório" }),
       }

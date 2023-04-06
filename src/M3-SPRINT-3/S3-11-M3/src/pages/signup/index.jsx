@@ -8,6 +8,7 @@ import { useEffect } from "react";
 import { api } from "../../services/api";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { PinkButton } from "../../components/button";
 
 export function Signup() {
   const navigate = useNavigate();
@@ -107,23 +108,21 @@ export function Signup() {
           {...register("course_module")}
         >
           <option value="">Selecionar módulo</option>
-          <option value="Primeiro módulo">
+          <option value="Primeiro módulo (Introdução ao Frontend)">
             Primeiro módulo (Introdução ao Frontend)
           </option>
-          <option value="Segundo módulo">
+          <option value="Segundo módulo (Frontend Avançado)">
             Segundo módulo (Frontend Avançado)
           </option>
-          <option value="Terceiro módulo">
+          <option value="Terceiro módulo (Introdução ao Backend)">
             Terceiro módulo (Introdução ao Backend)
           </option>
-          <option value="Quarto módulo">
+          <option value="Quarto módulo (Backend Avançado)">
             Quarto módulo (Backend Avançado)
           </option>
         </select>
         {errors.course_module ? <p>{errors.course_module.message}</p> : null}
-        <button id="signup-button" className="pink-button">
-          Cadastrar
-        </button>
+        <PinkButton name="Cadastrar" />
       </form>
     </StyledSignupMain>
   );

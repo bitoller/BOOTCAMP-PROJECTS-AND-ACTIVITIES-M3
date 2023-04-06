@@ -7,6 +7,7 @@ import { signinSchema } from "../../formsSchema/signinSchema";
 import { api } from "../../services/api";
 import { toast } from "react-toastify";
 import { useState } from "react";
+import { PinkButton } from "../../components/button";
 
 export function Signin() {
   const navigate = useNavigate();
@@ -61,9 +62,7 @@ export function Signin() {
           {...register("password")}
         ></input>
         {errors.password ? <p>{errors.password.message}</p> : null}
-        <button type="submit" id="signin-submit-button" className="pink-button">
-          Entrar
-        </button>
+        <PinkButton name="Entrar" />
         <p>Ainda não possui uma conta?</p>
         <Link to={"/signup"} id="signin-signup-button" className="gray-button">
           Cadastre-se

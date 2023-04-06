@@ -1,9 +1,8 @@
 import { useNavigate } from "react-router-dom";
-import logo from "../../assets/logo.png";
 import { StyledHome } from "./style";
 import { api } from "../../services/api";
 import { useEffect, useState } from "react";
-import { toast } from "react-toastify";
+import { Header } from "../../components/header";
 
 export function Home() {
   const [user, setUser] = useState({});
@@ -34,27 +33,7 @@ export function Home() {
 
   return (
     <StyledHome>
-      <nav>
-        <div className="navbar">
-          <img src={logo} alt="logo" />
-          <button
-            id="home-signout-button"
-            onClick={() => {
-              clearLocalStorage();
-              toast.success("Deslogado com sucesso");
-              navigate("/");
-            }}
-          >
-            Sair
-          </button>
-        </div>
-      </nav>
-      <header>
-        <div className="header">
-          <h2>Olá, {user.name}</h2>
-          <p>Primeiro módulo (Introdução ao Frontend)</p>
-        </div>
-      </header>
+      <Header userName={user.name} module={user.course_module} />
       <main>
         <p>Que pena! Estamos em desenvolvimento :(</p>
         <p>

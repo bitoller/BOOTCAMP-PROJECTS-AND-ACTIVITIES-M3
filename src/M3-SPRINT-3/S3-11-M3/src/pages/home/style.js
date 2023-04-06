@@ -72,6 +72,7 @@ export const StyledHome = styled.div`
   }
 
   main p:nth-of-type(2) {
+    font-size: 1rem;
     font-weight: 400;
     color: #ffffff;
   }
