@@ -5,39 +5,39 @@ export const StyledSigninMain = styled.main`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 35px;
+  gap: 2.188rem;
 
   .logo-container {
-    margin-top: 77px;
+    margin-top: 4.813rem;
   }
 
   .signin-form-container {
-    width: 369px;
+    width: 23.063rem;
     height: auto;
     background-color: var(--color-gray-3);
     border-radius: 4px;
-    padding: 42px 22px;
+    padding: 2.625rem 1.375rem;
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 1.5rem;
   }
 
   .signin-form-container > h2 {
     text-align: center;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
     color: var(--color-gray-0);
   }
 
   .signin-form-container > label {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
     color: var(--color-gray-0);
   }
 
   .signin-form-container > p {
     text-align: center;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 600;
     color: var(--color-gray-1);
   }
@@ -56,16 +56,16 @@ export const StyledSigninMain = styled.main`
     }
 
     .signin-form-container > h2 {
-      font-size: 14px;
+      font-size: 0.875rem;
     }
 
     .signin-form-container > label {
-      font-size: 9.77px;
+      font-size: 0.611rem;
     }
 
     .signin-form-container > input,
     button {
-      height: 38.5px;
+      height: 2.406rem;
     }
   }
 `;

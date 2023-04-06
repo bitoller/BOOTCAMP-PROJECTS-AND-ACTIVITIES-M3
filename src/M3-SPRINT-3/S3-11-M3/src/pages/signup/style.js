@@ -5,11 +5,11 @@ export const StyledSignupMain = styled.main`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 35px;
+  gap: 2.188rem;
 
   .logo-button-container {
-    margin-top: 48px;
-    width: 370px;
+    margin-top: 3rem;
+    width: 23.125rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,12 +20,12 @@ export const StyledSignupMain = styled.main`
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    width: 67px;
-    height: 40px;
+    width: 4.188rem;
+    height: 2.5rem;
     background-color: var(--color-gray-3);
     border-radius: 4px;
     color: var(--color-gray-0);
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 600;
     cursor: pointer;
   }
@@ -35,33 +35,33 @@ export const StyledSignupMain = styled.main`
   }
 
   .signup-form-container {
-    width: 370px;
+    width: 23.125rem;
     height: auto;
     background-color: var(--color-gray-3);
     border-radius: 4px;
-    padding: 42px 22px;
+    padding: 2.625rem 1.375rem;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 0.938rem;
   }
 
   .signup-form-container > h2 {
     text-align: center;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
-    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
   }
 
   .signup-form-container > p {
     text-align: center;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
     color: var(--color-gray-1);
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
 
   .signup-form-container > label {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
   }
 
@@ -71,33 +71,33 @@ export const StyledSignupMain = styled.main`
     }
 
     .logo-button-container > button {
-      width: 79.54px;
-      height: 31.95px;
-      font-size: 9.59px;
+      width: 4.971rem;
+      height: 1.997rem;
+      font-size: 0.599rem;
     }
 
     .signup-form-container {
       width: 90%;
       height: auto;
-      margin-bottom: 10px;
+      margin-bottom: 0.625rem;
     }
 
     .signup-form-container > h2 {
-      font-size: 14.39px;
+      font-size: 0.899rem;
     }
 
     .signup-form-container > p {
-      font-size: 9.59px;
+      font-size: 0.599rem;
     }
 
     .signup-form-container > label {
-      font-size: 9.74px;
+      font-size: 0.609rem;
     }
 
     .signup-form-container > input,
     select,
     button {
-      height: 38.38px;
+      height: 2.399rem;
     }
   }
 `;

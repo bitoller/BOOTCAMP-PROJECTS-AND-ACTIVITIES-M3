@@ -13,46 +13,46 @@ export const StyledHome = styled.div`
   }
 
   .navbar {
-    margin: 0 240px;
-    height: 72px;
+    margin: 0 15rem;
+    height: 4.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
   .navbar > button {
-    width: 55.49px;
-    height: 32px;
+    width: 3.468rem;
+    height: 2rem;
     background-color: var(--color-gray-3);
     border-radius: 4px;
     color: var(--color-gray-0);
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 600;
     cursor: pointer;
   }
 
   header {
     width: 100vw;
-    height: 118px;
+    height: 7.375rem;
     border-bottom: 1px solid var(--color-gray-3);
   }
 
   .header {
     height: 100%;
-    margin: 0 240px;
+    margin: 0 15rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
   .header > h2 {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
     text-transform: capitalize;
   }
 
   .header > p {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 600;
     color: var(--color-gray-1);
   }
@@ -60,19 +60,18 @@ export const StyledHome = styled.div`
   main {
     width: 100vw;
     height: auto;
-    margin: 37px 240px;
+    margin: 2.313rem 15rem;
     display: flex;
     flex-direction: column;
-    gap: 23px;
+    gap: 1.438rem;
   }
 
   main p:nth-of-type(1) {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
   }
 
   main p:nth-of-type(2) {
-    font-size: 16px;
     font-weight: 400;
     color: #ffffff;
   }
@@ -92,16 +91,16 @@ export const StyledHome = styled.div`
 
     .header {
       margin: 0;
-      gap: 20px;
-      padding-left: 10px;
+      gap: 1.25rem;
+      padding-left: 0.625rem;
       flex-direction: column;
       justify-content: center;
       align-items: flex-start;
     }
 
     main {
-      margin: 37px 0;
-      padding-left: 10px;
+      margin: 2.313rem 0;
+      padding-left: 0.625rem;
     }
   }
 `;

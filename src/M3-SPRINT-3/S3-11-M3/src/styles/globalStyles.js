@@ -140,7 +140,7 @@ body {
 
 .pink-button {
   width: 100%;
-  height: 48px;
+  height: 3rem;
   background-color: var(--color-primary);
   border-radius: 4px;
   color: #FFFFFF;
@@ -158,7 +158,7 @@ body {
 
 .gray-button {
   width: 100%;
-  height: 48px;
+  height: 3rem;
   background-color: var(--color-gray-1);
   border-radius: 4px;
   color: #FFFFFF;
@@ -172,12 +172,12 @@ body {
 
 input, select {
   width: 100%;
-  height: 48px;
+  height: 3rem;
   background-color: var(--color-gray-2);
   border-radius: 4px;
   color: var(--color-gray-0);
   font-weight: 400;
-  padding-left: 16px;
+  padding-left: 1rem;
 }
 
 input::placeholder {
@@ -196,7 +196,7 @@ select {
   border: none;
   cursor: pointer;
   font-family: 'Inter', sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--color-gray-1);
 }
 
