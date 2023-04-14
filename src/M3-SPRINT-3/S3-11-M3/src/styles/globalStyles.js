@@ -84,7 +84,8 @@ mark,
 audio,
 video,
 button,
-input {
+input,
+main {
   margin: 0;
   padding: 0;
   border: 0;

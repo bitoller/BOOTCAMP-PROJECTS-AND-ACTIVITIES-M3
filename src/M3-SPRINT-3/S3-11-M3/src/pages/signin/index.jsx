@@ -1,16 +1,15 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import { StyledSigninMain } from "./style";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { signinSchema } from "../../formsSchema/signinSchema";
-import { api } from "../../services/api";
-import { toast } from "react-toastify";
-import { useState } from "react";
+import { useContext } from "react";
 import { PinkButton } from "../../components/button";
+import { UserContext } from "../../providers/userProvider";
 
 export function Signin() {
-  const navigate = useNavigate();
+  const { signIn } = useContext(UserContext);
 
   const {
     register,
@@ -20,19 +19,6 @@ export function Signin() {
     resolver: zodResolver(signinSchema),
   });
 
-  async function submit(formData) {
-    try {
-      const response = await api.post("sessions", formData);
-      if (response.data.token) {
-        localStorage.setItem("token", JSON.stringify(response.data.token));
-        localStorage.setItem("userId", JSON.stringify(response.data.user.id));
-        toast.success("Usuário logado com sucesso");
-        navigate("/home");
-      }
-    } catch (error) {
-      toast.error(error.response.data.message);
-    }
-  }
   return (
     <StyledSigninMain>
       <div className="logo-container">
@@ -40,7 +26,7 @@ export function Signin() {
       </div>
       <form
         className="signin-form-container"
-        onSubmit={handleSubmit(submit)}
+        onSubmit={handleSubmit(signIn)}
         noValidate
       >
         <h2>Login</h2>

@@ -3,15 +3,15 @@ import logo from "../../assets/logo.png";
 import { signupSchema } from "../../formsSchema/signupSchema";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { StyledSignupMain } from "./style";
-import { Link, useNavigate } from "react-router-dom";
-import { useEffect } from "react";
-import { api } from "../../services/api";
-import { toast } from "react-toastify";
+import { Link } from "react-router-dom";
+import { useContext } from "react";
 import "react-toastify/dist/ReactToastify.css";
 import { PinkButton } from "../../components/button";
+import { UserContext } from "../../providers/userProvider";
+
 
 export function Signup() {
-  const navigate = useNavigate();
+  const { signUp } = useContext(UserContext);
 
   const {
     register,
@@ -21,16 +21,6 @@ export function Signup() {
     resolver: zodResolver(signupSchema),
   });
 
-  async function submit(formData) {
-    try {
-      const response = await api.post("users", formData);
-      toast.success("Usuário cadastrado com sucesso");
-      navigate("/");
-    } catch (error) {
-      toast.error(error.response.data.message);
-    }
-  }
-
   return (
     <StyledSignupMain>
       <div className="logo-button-container">
@@ -39,7 +29,7 @@ export function Signup() {
       </div>
       <form
         className="signup-form-container"
-        onSubmit={handleSubmit(submit)}
+        onSubmit={handleSubmit(signUp)}
         noValidate
       >
         <h2>Crie sua conta</h2>

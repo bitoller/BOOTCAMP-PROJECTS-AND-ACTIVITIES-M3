@@ -1,35 +1,24 @@
 import logo from "../../assets/logo.png";
-import { toast } from "react-toastify";
-import { useNavigate } from "react-router-dom";
+import { useContext } from "react";
+import { UserContext } from "../../providers/userProvider";
 
-export function Header({ userName, module }) {
-  const navigate = useNavigate();
-  const clearLocalStorage = () => {
-    localStorage.removeItem("token");
-    localStorage.removeItem("userId");
-  };
+export function Header() {
+  const { user, signOut } = useContext(UserContext);
 
   return (
     <>
       <nav>
         <div className="navbar">
           <img src={logo} alt="logo" />
-          <button
-            id="home-signout-button"
-            onClick={() => {
-              clearLocalStorage();
-              toast.success("Deslogado com sucesso");
-              navigate("/");
-            }}
-          >
+          <button id="home-signout-button" onClick={signOut}>
             Sair
           </button>
         </div>
       </nav>
       <header>
         <div className="header">
-          <h2>Olá, {userName}</h2>
-          <p>{module}</p>
+          <h2>Olá, {user.name}</h2>
+          <p>{user.course_module}</p>
         </div>
       </header>
     </>

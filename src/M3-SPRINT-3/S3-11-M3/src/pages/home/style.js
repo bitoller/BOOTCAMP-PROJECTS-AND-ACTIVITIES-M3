@@ -59,22 +59,94 @@ export const StyledHome = styled.div`
 
   main {
     width: 100vw;
-    height: auto;
-    margin: 2.313rem 15rem;
     display: flex;
     flex-direction: column;
-    gap: 1.438rem;
   }
 
-  main p:nth-of-type(1) {
-    font-size: 1.125rem;
+  .tech-container {
+    margin: 0.688rem 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .tech-container-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.313rem;
+  }
+
+  .tech-container-title > h3 {
+    font-weight: 600;
+  }
+
+  .tech-container-title > button {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 4px;
+    background-color: var(--color-gray-3);
+    color: var(--color-gray-0);
     font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
   }
 
-  main p:nth-of-type(2) {
-    font-size: 1rem;
+  .tech-container-title > button:hover {
+    background-color: var(--color-gray-2);
+  }
+
+  .techs-list {
+    width: 100%;
+    height: auto;
+    background-color: var(--color-gray-3);
+    border-radius: 4px;
+    padding: 1.438rem 1.375rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .techs-list > li {
+    height: 3.063rem;
+    background-color: var(--color-gray-4);
+    border-radius: 4px;
+  }
+
+  .techs-list > li:hover {
+    background-color: var(--color-gray-2);
+    span:nth-of-type(2) {
+      color: var(--color-gray-0);
+    }
+  }
+
+  .techs-list > li > button {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    cursor: pointer;
+  }
+
+  .techs-list > li > button > span:nth-of-type(1) {
+    font-size: 0.625rem;
+    font-weight: 700;
+    color: var(--color-gray-0);
+    text-transform: capitalize;
+  }
+
+  .techs-list > li > button > span:nth-of-type(2) {
+    font-size: 0.563rem;
     font-weight: 400;
-    color: #ffffff;
+    color: var(--color-gray-1);
   }
 
   @media (max-width: 1023px) {
@@ -87,21 +159,33 @@ export const StyledHome = styled.div`
     .navbar {
       width: 100%;
       margin: 0;
-      justify-content: space-around;
+      justify-content: space-between;
+      padding-left: 0.625rem;
+      padding-right: 0.625rem;
     }
 
     .header {
       margin: 0;
       gap: 1.25rem;
       padding-left: 0.625rem;
+      padding-right: 0.625rem;
       flex-direction: column;
       justify-content: center;
       align-items: flex-start;
     }
 
     main {
-      margin: 2.313rem 0;
+      margin: 0.938rem 0;
       padding-left: 0.625rem;
+      padding-right: 0.625rem;
+    }
+
+    .tech-container {
+      margin: 0.688rem 0rem;
+    }
+
+    .techs-list {
+      padding: 1.375rem 0.531rem;
     }
   }
 `;
