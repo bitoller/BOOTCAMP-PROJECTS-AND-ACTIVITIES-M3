@@ -39,43 +39,45 @@ Além disso, será utilizada a respectiva API: <a href="https://github.com/Kenzi
 - Renderize as informações de nome e módulo
 - Crie uma função de logout, limpando o estado user e as chaves no localStorage(@TOKEN, @USERID)
 
-Entrega - Projeto: KenzieHub (Completo)
-Tópicos do conteúdo
-Sobre a entrega
+<h2>Projeto: KenzieHub (Completo)</h2>
+
+<h3>Sobre a entrega</h3>
+
 Estamos continuando nesta entrega o projeto Kenzie Hub. O objetivo agora é mover as funções de Login e Cadastro para um contexto de usuário, além de criar um conjunto de funcionalidades para adicionar, editar e excluir tecnologias.
 
-Introdução
+<h3>Introdução</h3>
 Continuaremos utilizando a Kenzie Hub API do projeto anterior. Desta vez utilizando os endpoints de gerenciamento de tecnologias, além do endpoint que retorna as informações usuário (GET) Utilizaremos uma style guide baseada na anterior, mas contemplando as novas features. Por isso, você poderá reaproveitar parte da estilização já criada na entrega anterior.
 
-Style Guide (a entrega precisa ficar fidedigna ao respectivo style guide)
+<a href="https://www.figma.com/file/ccZ4uMlJtuBQISDzCCI1Vq/Kenzie-Hub?node-id=0%3A1">Style Guide</a> (a entrega precisa ficar fidedigna ao respectivo style guide)
 
-entrega_kenziehub_atualizada.png
 Lembre-se de consultar a documentação da API o tempo inteiro, e realiza teste de requisição no Insomnia.
 
-Mão na massa!
-Refatorando:
-Comece criando um contexto chamado de UserContext, feito isso, traga todas as funcionalidades e estados referentes ao usuário para este contexto (Login e Cadastro)
-Crie um componente chamado Providers para centralizar os seus contextos e envolva o componente App com este componente
-Substitua toda a passagem de props na aplicação relacionada aos estados e funcionalidades centralizados em UserContext
-Se tudo der certo, sua aplicação estará funcionando corretamente, mesmo com a migração das funções para context.
+<h3>Refatorando:</h3>
 
-Criando o Autologin:
-No contexto UserContext, crie um useEffect de montagem, neste efeito realize uma requisição na rota /profile (GET)
-Envolva a requisição com uma condicional verificando se o token ( colhido do localStorage) é válido.
-Assim como na função de Login, o resultado da requisição deverá armazenar as informações do usuário no estado user
-Em caso de erro (em catch), faça a limpeza da @TOKEN do localStorage.
-Dando tudo certo, ao realizar login e atualizar a página, o usuário continuará logado
+- Comece criando um contexto chamado de UserContext, feito isso, traga todas as funcionalidades e estados referentes ao usuário para este contexto (Login e Cadastro)
+- Crie um componente chamado Providers para centralizar os seus contextos e envolva o componente App com este componente
+- Substitua toda a passagem de props na aplicação relacionada aos estados e funcionalidades centralizados em UserContext
+- Se tudo der certo, sua aplicação estará funcionando corretamente, mesmo com a migração das funções para context.
 
-Interagindo com as tecnologias:
-Comece renderizando as tecnologias do usuário, elas já estão na resposta que vem das funcionalidades de Login e Autologin;
-Crie um modal (AddModal) para ser renderizado por meio de renderização condicional
-Neste modal, crie um formulário e realize as validações e coleta de dados, utilizando Hook Form/Zod
-Prosseguindo, crie um novo contexto chamado TechContext, neste criaremos duas funcionalidades:
-Uma função de criação de tecnologias, realizando uma requisição na rota /users/techs (POST)
-Uma função de exclusão de tecnologias, realizando uma requisição na rota /users/techs/:tech_id (DELETE)
-As funcionalidades deverão ter loading e toast de erro
-OBS: Ambas as rotas são privadas, por isso não esqueça de enviar o token (presente no localStorage) 
-OBS 2: não esqueça, é necessário, mesmo com a requisição, atualizar o estado, para que a renderização aconteça instantaneamente na interface.     
+<h4>Criando o Autologin:</h4>
+
+- No contexto UserContext, crie um useEffect de montagem, neste efeito realize uma requisição na rota /profile (GET)
+- Envolva a requisição com uma condicional verificando se o token ( colhido do localStorage) é válido.
+- Assim como na função de Login, o resultado da requisição deverá armazenar as informações do usuário no estado user
+- Em caso de erro (em catch), faça a limpeza da @TOKEN do localStorage.
+- Dando tudo certo, ao realizar login e atualizar a página, o usuário continuará logado
+
+<h4>Interagindo com as tecnologias:</h4>
+
+- Comece renderizando as tecnologias do usuário, elas já estão na resposta que vem das funcionalidades de Login e Autologin;
+- Crie um modal (AddModal) para ser renderizado por meio de renderização condicional
+- Neste modal, crie um formulário e realize as validações e coleta de dados, utilizando Hook Form/Zod
+- Prosseguindo, crie um novo contexto chamado TechContext, neste criaremos duas funcionalidades:
+- Uma função de criação de tecnologias, realizando uma requisição na rota /users/techs (POST)
+- Uma função de exclusão de tecnologias, realizando uma requisição na rota /users/techs/:tech_id (DELETE)
+- As funcionalidades deverão ter loading e toast de erro
+- OBS: Ambas as rotas são privadas, por isso não esqueça de enviar o token (presente no localStorage) 
+- OBS 2: não esqueça, é necessário, mesmo com a requisição, atualizar o estado, para que a renderização aconteça instantaneamente na interface.     
 
 Feito isso, importe o contexto novo no componente Providers, dentro de UserContext, e aplique as funções do contexto nos pontos necessários da interface.
 
@@ -85,10 +87,11 @@ Cumprindo esta etapa, já será possível adicionar e remover tecnologias.
 
 Você deve criar um novo modal para atualização de tecnologia, que será aberto ao clicar na respectiva tecnologia, verifique na rota da API a rota mais adequada para realizar a alteração.
 
-Dicas:
-Faça o modal carregar as informações da respectiva tecnologia nos inputs
-Desabilite o input cujo o dado não pode ser alterado
-Não esqueça do loading e do toast de erro
+<h3>Dicas:</h3>
+
+- Faça o modal carregar as informações da respectiva tecnologia nos inputs
+- Desabilite o input cujo o dado não pode ser alterado
+- Não esqueça do loading e do toast de erro
 
 <br>
 <br>
