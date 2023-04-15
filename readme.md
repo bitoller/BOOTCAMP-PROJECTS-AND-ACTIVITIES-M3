@@ -13,7 +13,7 @@ The `M` stands for `Modules` <strong>e.g.</strong> `M3` means `Module 3`. That's
 <hr />
 
 ## S1-36-M3 - 03/27/23 - "[NU KENZIE](https://nu-kenzie-bitoller.vercel.app/)"
-For my next activity I had to code a Finances Management App based on an example given from Figma using Reactjs. You can use this application to keep track of your finances. You can select between money going in or out and name them accordingly. The application will also calculate the total balance.<br />
+For my next activity I had to code a Finances Management Page based on an example given from Figma using Reactjs. You can use this application to keep track of your finances. You can select between money going in or out and name them accordingly. The application will also calculate the total balance.<br />
 <br />
 `scaffolding` `input` `css variables` `flexbox` `hover` `focus` `function` `variables` `data type` `boolean` `conditionals` `objects` `array` `methods` `Reactjs` `vite` `vercel` `+`
 
@@ -23,7 +23,9 @@ For my next activity I had to code a Burger Shop based on an example given from 
 `scaffolding` `input` `css variables` `styled components` `flexbox` `hover` `focus` `react toastify` `axios` `function` `variables` `data type` `boolean` `conditionals` `objects` `array` `methods` `API` `CRUD` `Reactjs` `vite` `vercel` `+`
 
 ## S3-11-M3 - 04/17/23 - "[KENZIEHUB](https://kenzie-hub-bitoller.vercel.app/)"
-Still coding the second part.
+For my next activity I had to code a Hub Page based on an example given from Figma using Reactjs. You can sign up with your email and password and then sign in to access your personal hub. When signed in, you'll be able to see your course module and the technologies you know, including your level of knowledge. You can add new technologies, you can edit your level of knowledge about existing technologies and you can delete them as well.<br />
+<br />
+`scaffolding` `input` `css variables` `styled components` `flexbox` `hover` `focus` `react toastify` `axios` `react hook form` `zod` `react router dom` `contextAPI` `function` `variables` `data type` `boolean` `conditionals` `objects` `array` `methods` `API` `CRUD` `Reactjs` `vite` `vercel` `+`
 
 <hr />
 
