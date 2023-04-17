@@ -13,16 +13,17 @@ export function UserProvider({ children }) {
     const tokenAuth = async () => {
       let token = JSON.parse(localStorage.getItem("token"));
       if (token != null) {
-        let userId = JSON.parse(localStorage.getItem("userId"));
         api.defaults.headers.common.authorization = `Bearer ${token}`;
         try {
-          const userAux = await api.get(`users/${userId}`);
+          const userAux = await api.get(`profile`);
+          console.log(userAux.data);
           setUser(userAux.data);
-        } catch (error) {}
-      } else {
-        localStorage.removeItem("token");
-        localStorage.removeItem("userId");
-        navigate("/");
+          navigate("/home");
+        } catch (error) {
+          navigate("/");
+          localStorage.removeItem("token");
+          localStorage.removeItem("userId");
+        }
       }
     };
     tokenAuth();
