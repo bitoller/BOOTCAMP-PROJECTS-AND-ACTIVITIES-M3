@@ -24,6 +24,8 @@ export function UserProvider({ children }) {
           localStorage.removeItem("token");
           localStorage.removeItem("userId");
         }
+      } else {
+        navigate("/");
       }
     };
     tokenAuth();
