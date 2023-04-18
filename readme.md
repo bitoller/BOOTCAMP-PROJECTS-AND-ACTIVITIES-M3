@@ -27,6 +27,9 @@ For my next activity I had to code a Hub Page based on an example given from Fig
 <br />
 `scaffolding` `input` `css variables` `styled components` `flexbox` `hover` `focus` `react toastify` `axios` `react hook form` `zod` `react router dom` `contextAPI` `function` `variables` `data type` `boolean` `conditionals` `objects` `array` `methods` `API` `CRUD` `Reactjs` `vite` `vercel` `+`
 
+## S5-12-M3 - 04/24/23 - "[HAMBURGUERIA 2.0]()"
+Still coding.
+
 <hr />
 
 <p align="center">
