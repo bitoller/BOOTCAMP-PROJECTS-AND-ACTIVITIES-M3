@@ -16,13 +16,11 @@ export function UserProvider({ children }) {
         api.defaults.headers.common.authorization = `Bearer ${token}`;
         try {
           const userAux = await api.get(`profile`);
-          console.log(userAux.data);
           setUser(userAux.data);
           navigate("/home");
         } catch (error) {
           navigate("/");
           localStorage.removeItem("token");
-          localStorage.removeItem("userId");
         }
       } else {
         navigate("/");
