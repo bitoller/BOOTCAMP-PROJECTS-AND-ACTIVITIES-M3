@@ -1,4 +1,4 @@
-<h1>Entrega - Projeto: Hamburgueria da Kenzie</n1>
+<h1>Projeto: Hamburgueria da Kenzie</n1>
 
 <h3>Sobre a entrega</h3>
 O objetivo desta entrega é construir uma aplicação baseada no que aprenderam em React até este momento, como também aperfeiçoar suas habilidades de estilização.
