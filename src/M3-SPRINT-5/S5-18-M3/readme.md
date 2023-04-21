@@ -26,3 +26,7 @@ Utilize os aprendizados das sprints e entregas anteriores e crie contextos para 
 A entrega precisa estar 100% funcional respeitando a rubrica: login, cadastro de usuário, proteção de rotas, react-hook-form e outros.
 
 Toda aplicação deve estar em Typescript! Caso não seja utilizado typescript, a⁠ entrega será inválidada.
+<br>
+<br>
+
+<p align="center"><b>Taken from Kenzie Academy Brasil</b></p>
