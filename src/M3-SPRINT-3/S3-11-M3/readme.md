@@ -39,7 +39,7 @@ Além disso, será utilizada a respectiva API: <a href="https://github.com/Kenzi
 - Renderize as informações de nome e módulo
 - Crie uma função de logout, limpando o estado user e as chaves no localStorage(@TOKEN, @USERID)
 
-<h2>Projeto: KenzieHub (Completo)</h2>
+<h2>KenzieHub (Completo)</h2>
 
 <h3>Sobre a entrega</h3>
 
