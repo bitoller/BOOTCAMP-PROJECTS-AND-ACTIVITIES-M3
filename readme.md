@@ -49,7 +49,7 @@ For my next activity I had to code a Burger Shop based on an example given from 
 <hr />
 
 <p align="center">
-<b>Do not copy any code, content or structure from this repository without my permission.<br />
-Buttons made by @Luhmaria.</b><br />
+<b>Do not copy any code, content or structure from this repository without my permission<br />
+Buttons made by @Luhmaria</b><br />
 Made with ♥ by bitoller
 </p>
