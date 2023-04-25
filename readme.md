@@ -28,7 +28,7 @@ For my next activity I had to code a Hub Page based on an example given from Fig
 `scaffolding` `input` `css variables` `styled components` `flexbox` `hover` `focus` `react toastify` `axios` `react hook form` `zod` `react router dom` `contextAPI` `function` `variables` `data type` `boolean` `conditionals` `objects` `array` `methods` `API` `CRUD` `Reactjs` `vite` `vercel` `+`
 
 ## S5-18-M3 - 04/24/23 - "[HAMBURGUERIA 2.0](https://kenzie-burger-bitoller.vercel.app/)"
-For my next activity I had to code a Burger Shop based on an example given from Figma using Reactjs and TypeScript. You can add products to the cart, you can also remove them all from the cart at once or one by one. You can search for the product by its name or category using the search bar. The CSS was already done.<br />
+For my next activity I had to code a Burger Shop based on an example given from Figma using Reactjs and TypeScript. You can sign up with your email and password and then sign in to access your personal account. When signed in, you can add products to the cart, you can also remove them all from the cart at once or one by one. You can search for the product by its name or category using the search bar. The CSS was already done.<br />
 <br />
 `scaffolding` `input` `css variables` `styled components` `flexbox` `hover` `focus` `react toastify` `axios` `react hook form` `zod` `react router dom` `contextAPI` `function` `variables` `data type` `boolean` `conditionals` `objects` `array` `methods` `API` `CRUD` `Reactjs` `TypeScript` `vite` `vercel` `+`
 
