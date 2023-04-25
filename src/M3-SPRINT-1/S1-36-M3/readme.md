@@ -1,4 +1,4 @@
-<h1>Projeto: Nu Kenzie</h1>
+<h1>Nu Kenzie</h1>
 
 <h3>Sobre a entrega</h3>
 Hora de colocar a mão na massa, vamos criar o Nu Kenzie, uma aplicação para gerenciamento de gastos, cadastrando entradas e saídas.
