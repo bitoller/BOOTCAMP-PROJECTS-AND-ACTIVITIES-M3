@@ -50,6 +50,7 @@ For my next activity I had to code a Burger Shop based on an example given from 
 
 <p align="center">
 <b>Do not copy any code, content or structure from this repository without my permission.<br />
-Não copie nenhum código, conteúdo ou estrutura desse repositório sem a minha permissão.</b><br />
+Não copie nenhum código, conteúdo ou estrutura desse repositório sem a minha permissão.<br />
+Buttons made by @Luhmaria.</b><br />
 Copyright © 2023 bitoller
 </p>
