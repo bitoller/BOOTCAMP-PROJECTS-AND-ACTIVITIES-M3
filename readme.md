@@ -46,6 +46,12 @@ For my next activity I had to code a Burger Shop based on an example given from 
 
 `scaffolding` `input` `css variables` `styled components` `flexbox` `hover` `focus` `react toastify` `axios` `react hook form` `zod` `react router dom` `contextAPI` `function` `variables` `data type` `boolean` `conditionals` `objects` `array` `methods` `API` `CRUD` `Reactjs` `TypeScript` `vite` `vercel` `+`
 
+## S?-?-M3 - 05/05/23 - FurEver Homes
+Still coding.<br />
+
+<a href="#" target="_blank"> <img src="./src/assets/code_purple.png"> </a> &nbsp; &nbsp;
+<a href="#" target="_blank"> <img src="./src/assets/page_purple.png"> </a> &nbsp; &nbsp;
+
 <hr />
 
 <p align="center">
