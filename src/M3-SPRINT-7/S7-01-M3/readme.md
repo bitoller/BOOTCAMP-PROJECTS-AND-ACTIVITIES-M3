@@ -51,7 +51,7 @@ Temos um botão para por um pet para adoção. Ao clicar nele um modal abre e vo
 
 ## ⌛ Status do projeto
 
-Em andamento.
+Finalizado.
 
 ## 📁 Acesso ao projeto
 
