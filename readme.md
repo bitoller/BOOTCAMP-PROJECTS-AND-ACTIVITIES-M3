@@ -50,7 +50,7 @@ For my next activity I had to code a Burger Shop based on an example given from 
 The project is done. Still working on a description.<br />
 
 <a href="https://github.com/bitoller/bootcamp-projects-and-activities-m3/tree/main/src/M3-SPRINT-7/S7-01-M3" target="_blank"> <img src="./src/assets/code_purple.png"> </a> &nbsp; &nbsp;
-<a href="https://furever-homes.vercel.app/" target="_blank"> <img src="./src/assets/page_purple.png"> </a> &nbsp; &nbsp;
+<a href="https://furever-homes-bitoller.vercel.app/" target="_blank"> <img src="./src/assets/page_purple.png"> </a> &nbsp; &nbsp;
 
 <hr />
 
