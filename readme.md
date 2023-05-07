@@ -46,11 +46,11 @@ For my next activity I had to code a Burger Shop based on an example given from 
 
 `scaffolding` `input` `css variables` `styled components` `flexbox` `hover` `focus` `react toastify` `axios` `react hook form` `zod` `react router dom` `contextAPI` `function` `variables` `data type` `boolean` `conditionals` `objects` `array` `methods` `API` `CRUD` `Reactjs` `TypeScript` `vite` `vercel` `+`
 
-## S7-01-M3 - 05/05/23 - FurEver Homes
-Still coding.<br />
+## S7-01-M3 - 05/08/23 - Furever Homes
+The project is done. Still working on a description.<br />
 
 <a href="https://github.com/bitoller/bootcamp-projects-and-activities-m3/tree/main/src/M3-SPRINT-7/S7-01-M3" target="_blank"> <img src="./src/assets/code_purple.png"> </a> &nbsp; &nbsp;
-<a href="#" target="_blank"> <img src="./src/assets/page_purple.png"> </a> &nbsp; &nbsp;
+<a href="https://furever-homes.vercel.app/" target="_blank"> <img src="./src/assets/page_purple.png"> </a> &nbsp; &nbsp;
 
 <hr />
 
