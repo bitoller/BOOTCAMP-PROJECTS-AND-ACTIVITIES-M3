@@ -55,7 +55,7 @@ Finalizado.
 
 ## 📁 Acesso ao projeto
 
-[Veja o site Furever Homes em funcionamento](https://furever-homes.vercel.app).
+[Veja o site Furever Homes em funcionamento](https://furever-homes-bitoller.vercel.app).
 
 Neste repositório você tem acesso a todos os arquivos e códigos da aplicação.<br/>
 Já neste <a href="https://github.com/projeto-final-m3-adoption/furever-homes-backend" target="_blank">repositório</a> você tem acesso a todos os arquivos da fake API utilizada.
