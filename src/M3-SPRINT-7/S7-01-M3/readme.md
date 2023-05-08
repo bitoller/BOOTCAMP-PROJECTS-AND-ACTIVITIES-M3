@@ -34,6 +34,7 @@ Temos um botão para por um pet para adoção. Ao clicar nele um modal abre e vo
 - `TypeScript`: O TypeScript proporcionará todas as funcionalidades da aplicação.
 - `React`: O React faz com que a aplicação seja uma SPA (single page application).
 - `Figma`: Aqui se encontra o <a href="https://www.figma.com/file/4BcBWXwjjWKlC14mxRBuRG/Furever-Homes?type=design&node-id=0%3A1&t=OUkXb7WZZYR43pBZ-1" target="_blank">figma</a> do projeto, onde foi decidida a estrutura e estilização.
+- `Fake API`: Foi usada uma fake API para o back end. A url base da API é https://furever-homes-api.onrender.com .
 
 ## ✔️ Bibliotecas utilizadas
 
