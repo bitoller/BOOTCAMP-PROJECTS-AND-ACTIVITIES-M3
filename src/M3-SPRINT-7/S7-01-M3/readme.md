@@ -33,7 +33,7 @@ Temos um botão para por um pet para adoção. Ao clicar nele um modal abre e vo
 - `CSS`: O CSS tem papel fundamental para indicar a interação do usuário com a interface gráfica.
 - `TypeScript`: O TypeScript proporcionará todas as funcionalidades da aplicação.
 - `React`: O React faz com que a aplicação seja uma SPA (single page application).
-- `Figma`: Aqui se encontra o <a href="https://www.figma.com/file/YrTlwnMXGU2EBLGm17CJwJ/Furever-Homes?type=design&node-id=0%3A1&t=pPlBJZOOa8HP7hNE-1" target="_blank">figma</a> do projeto, onde foi decidida a estrutura e estilização.
+- `Figma`: Aqui se encontra o <a href="https://www.figma.com/file/4BcBWXwjjWKlC14mxRBuRG/Furever-Homes?type=design&node-id=0%3A1&t=OUkXb7WZZYR43pBZ-1" target="_blank">figma</a> do projeto, onde foi decidida a estrutura e estilização.
 
 ## ✔️ Bibliotecas utilizadas
 
