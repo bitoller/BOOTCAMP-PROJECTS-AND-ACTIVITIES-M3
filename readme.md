@@ -47,7 +47,7 @@ For my next activity I had to code a Burger Shop based on an example given from 
 
 `scaffolding` `input` `css variables` `styled components` `flexbox` `hover` `focus` `react toastify` `axios` `react hook form` `zod` `react router dom` `contextAPI` `function` `variables` `data type` `boolean` `conditionals` `objects` `array` `methods` `API` `CRUD` `Reactjs` `TypeScript` `vite` `vercel` `+`
 
-## S7-01-M3 - 05/08/23 - Furever Homes
+## S7-01-M3 - 05/08/23 - FUREVER HOMES
 For the module's final project, we were divided into groups and given free rein to choose what we wanted to do. We decided, as a group, to create a website to aid animal adoption. We wanted to have a space for people who rescued animals from the streets to put them up for adoption, and at the same time, we wanted to allow people looking for a new pet to come to the website and adopt an animal. We used agile methodologies like SCRUM and Kanban to organize ourselves. We created our own Figma from scratch and our fake API from scratch. Then we started coding the website using Reactjs and TypeScript. You can create an account and use it to sign in. You can see a list of pets that were registered in the database. You can open their cards to see more information and eventually adopt them, but only if they haven't already been adopted. You can filter them by name using the search bar or by type using the buttons right on top of the animal list. You can put an animal up for adoption using the button on top of the page, and more.<br />
 
 <a href="https://github.com/bitoller/bootcamp-projects-and-activities-m3/tree/main/src/M3-SPRINT-7/S7-01-M3" target="_blank"> <img src="./src/assets/code_purple.png"> </a> &nbsp; &nbsp;
